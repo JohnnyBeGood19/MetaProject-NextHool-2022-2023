@@ -1,0 +1,32 @@
+/* COLORS */
+$main-blu: #c5dbe0;
+$main-yellow: #fcee67;
+$main-grey: #2D2D2D;
+
+/* FONT */
+$main-font: 'Founders Grotesk', Arial, sans-serif;
+
+/* CLASSES */
+.full-height{
+    min-width: 100vw;
+    min-height: 100vh;
+    height: 100%;
+}
+.flex{
+    display: flex;
+}
+.grid{
+    display: grid;
+}
+@mixin bg-cover {
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+

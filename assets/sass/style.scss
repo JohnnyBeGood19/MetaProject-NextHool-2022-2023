@@ -1,0 +1,143 @@
+@import "reset";
+@import "font";
+@import "variable";
+
+/* VIDEO */
+#landing-video {
+/* 	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+	min-width: 100vw;
+	min-height: 100vh;
+    object-fit: cover;
+}
+body{
+    font-family: $main-font;
+    width: 100vw;
+}
+
+/* SCETION 2 */
+.due{
+    position: relative;
+    background-image: url(assets/img/discobolo.png);
+    background-size: contain;
+    @include bg-cover();
+    padding: 50px 100px;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.due h2{
+    margin-top: 30px;
+    font-size: 4rem;
+    font-weight: 500;
+}
+.due svg{
+    margin-bottom: -150px;
+}
+.chi{
+    padding: 100px;
+}
+.evento{
+    padding: 100px;
+    grid-column: 2;
+    grid-row: 2;
+}
+nav{
+    position: sticky;
+    top: 0;
+    background-color: $main-blu;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    width: 100vw;
+    z-index: 100;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+nav li{
+    font-weight: 300;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+nav img{
+    height: 40px;
+    width: auto;
+}
+
+
+
+
+.tre{
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.tre h1{
+    font-size: 25rem;
+    font-weight: 400;
+}
+.date{
+    font-size: 2rem;
+    gap: 70px;
+}
+
+footer{
+    background-color: $main-blu;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    width: 100vw;
+    z-index: 100;
+}
+footer ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+footer li{
+    font-weight: 300;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+footer img{
+    height: 40px;
+    width: auto;
+}
+
+
+.quattro{
+    grid-template-columns: 3fr 2fr;
+
+}
+.mohole{
+    background-image: url(/assets/img/mohole.png);
+    @include bg-cover();
+    background-size: cover;
+}
+.contatti{
+    margin-top: 150px;
+    background-image: url(/assets/img/dante.png);
+    @include bg-cover();
+    background-size: contain;
+    background-position: right bottom;
+    padding: 70px;
+    h2{
+        font-size: 4rem;
+        font-weight: 600;
+    }
+    p{
+        font-size: 1.5rem;
+    }
+}
+
+
+
+
+
