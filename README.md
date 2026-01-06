@@ -1,4 +1,4 @@
-# Metaproject Landing Page Prototype
+# NextHool Landing Page Prototype
 
 A prototype landing page developed as part of the **Metaproject** training course.
 
